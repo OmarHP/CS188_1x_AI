@@ -8,10 +8,14 @@
 ##Project 1: Search in pacman
 In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently.
 
-[Go to project](./project1)
+[Go to project](project_1/search)
 
 ##Project 2: Multi-agent pacman
 In this project, you will design agents for the classic version of Pacman, including ghosts. Along the way, you will implement both minimax and expectimax search and try your hand at evaluation function design.
 
+[Go to project](project_2/multiagent)
+
 ##Project 3: Reinforcement learning
 In this project, you will implement value iteration and Q-learning. You will test your agents first on Gridworld (from class), then apply them to a simulated robot controller (Crawler) and Pacman.
+
+[Go to project](project_3/reinforcement)
