@@ -1,5 +1,11 @@
 #Project 1: Search in pacman 
 
+![alt text](https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/search/v1/001/maze.png "Pacman")
+
+All those colored walls,
+Mazes give Pacman the blues,
+So teach him to search.
+
 ##Table of contents
  * [Introduction](#introduction)
  * [Welcome to pacman](#welcome-to-pacman)
