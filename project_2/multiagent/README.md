@@ -10,7 +10,6 @@ Evaluation
  * [Introduction](#introduction)
  * [Multi-Agent Pacman](#multi-agent-pacman)
  * [Questions](#questions)
- * [Object glossary](#object-glossary)
 
 ##Introduction
 
