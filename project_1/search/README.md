@@ -23,14 +23,16 @@ See the autograder tutorial in Python Refresher for more information about using
 
 The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a zip archive.
 
-**Edited files:**  
+**Edited files:**
+
 |   File   |  Description   |
 |----------|----------------|
 |search.py	      |Where all search algorithms reside.   |
 |searchAgents.py	|Where all search-based agents reside. |
 
 
-**Files you should read but NOT edit:**  
+**Files you should read but NOT edit:**
+
 |   File   |  Description   |
 |----------|----------------|
 |pacman.py	|The main file that runs Pacman games. This file describes a Pacman GameState type, which you use in this project.|
@@ -38,7 +40,8 @@ The code for this project consists of several Python files, some of which you wi
 |util.py	|Useful data structures for implementing search algorithms.|
 
 
-**Supporting files you can ignore:**  
+**Supporting files you can ignore:**
+
 |   File   |  Description   |
 |----------|----------------|
 |graphicsDisplay.py	|Graphics for Pacman|
