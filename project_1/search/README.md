@@ -43,3 +43,29 @@ The code for this project consists of several Python files.
 |testClasses.py	|General autograding test classes|
 |test_cases/	|Directory containing the test cases for each question|
 |searchTestClasses.py |Project 1 specific autograding test classes|
+
+##Run
+
+You should be able to play a game of Pacman by typing the following at the command line:
+
+    python pacman.py
+    
+Pacman lives in a shiny blue world of twisting corridors and tasty round treats. Navigating this world efficiently will be Pacman's first step in mastering his domain.
+
+The simplest agent in searchAgents.py is called the GoWestAgent, which always goes West (a trivial reflex agent). This agent can occasionally win:
+
+    python pacman.py --layout testMaze --pacman GoWestAgent
+    
+But, things get ugly for this agent when turning is required:
+
+    python pacman.py --layout tinyMaze --pacman GoWestAgent
+    
+If Pacman gets stuck, you can exit the game by typing `CTRL-c` into your terminal.
+
+Note that pacman.py supports a number of options that can each be expressed in a long way (e.g., --layout) or a short way (e.g., -l). You can see the list of all options and their default values via:
+
+    python pacman.py -h
+
+Also, all of the commands that appear in this project also appear in commands.txt, for easy copying and pasting. In UNIX/Mac OS X, you can even run all these commands in order with bash commands.txt.
+
+Note: if you get error messages regarding Tkinter, see [this page](http://tkinter.unpythonic.net/wiki/How_to_install_Tkinter).
