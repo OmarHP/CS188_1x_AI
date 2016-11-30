@@ -89,3 +89,35 @@ Note that it plays quite poorly even on simple layouts:
     python pacman.py -p ReflexAgent -l testClassic
 
 Inspect its code (in **multiAgents.py**) and make sure you understand what it's doing.
+
+##Questions
+
+###Question 1 (4/4 points): Reflex Agent
+
+Improve the **ReflexAgent** in **multiAgents.py** to play respectably. The provided reflex agent code provides some helpful examples of methods that query the **GameState** for information. A capable reflex agent will have to consider both food locations and ghost locations to perform well. Your agent should easily and reliably clear the **testClassic** layout:
+
+    python pacman.py -p ReflexAgent -l testClassic
+    
+Try out your reflex agent on the default mediumClassic layout with one ghost or two (and animation off to speed up the display):
+
+    python pacman.py --frameTime 0 -p ReflexAgent -k 1
+    
+    python pacman.py --frameTime 0 -p ReflexAgent -k 2
+    
+How does your agent fare? It will likely often die with 2 ghosts on the default board, unless your evaluation function is quite good.
+
+Note: As features, try the reciprocal of important values (such as distance to food) rather than just the values themselves.
+
+Note: The evaluation function you're writing is evaluating state-action pairs; in later parts of the project, you'll be evaluating states.
+
+Options: Default ghosts are random; you can also play for fun with slightly smarter directional ghosts using `-g DirectionalGhost`. If the randomness is preventing you from telling whether your agent is improving, you can use `-f` to run with a fixed random seed (same random choices every game). You can also play multiple games in a row with `-n`. Turn off graphics with `-q` to run lots of games quickly.
+
+Grading: we will run your agent on the **openClassi** layout 10 times. You will receive 0 points if your agent times out, or never wins. You will receive 1 point if your agent wins at least 5 times, or 2 points if your agent wins all 10 games. You will receive an addition 1 point if your agent's average score is greater than 500, or 2 points if it is greater than 1000. You can try your agent out under these conditions with
+
+    python autograder.py -q q1
+    
+To run it without graphics, use:
+
+    python autograder.py -q q1 --no-graphics
+    
+Don't spend too much time on this question, though, as the meat of the project lies ahead.
