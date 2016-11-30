@@ -36,19 +36,22 @@ See the autograder tutorial in Project 0 for more information about using the au
 
 The code for this project contains the following files, available as a [zip archive](https://s3-us-west-2.amazonaws.com/cs188websitecontent/projects/release/multiagent/v1/004/multiagent.zip).
 
-**Edited files:**  
+**Edited files:**
+
 |   File   |  Description   |
 |----------|----------------|
 |multiAgents.py	|Where all of your multi-agent search agents will reside.|
 
-**Files you should read but NOT edit:**  
+**Files you should read but NOT edit:**
+
 |   File   |  Description   |
 |----------|----------------|
 |pacman.py	|The main file that runs Pacman games. This file also describes a Pacman GameState type, which you will use extensively in this project|
 |game.py	|The logic behind how the Pacman world works. This file describes several supporting types like AgentState, Agent, Direction, and Grid.|
 |util.py	|Useful data structures for implementing search algorithms.|
 
-**Files you can ignore:**  
+**Files you can ignore:**
+
 |   File   |  Description   |
 |----------|----------------|
 |graphicsDisplay.py	|Graphics for Pacman|
