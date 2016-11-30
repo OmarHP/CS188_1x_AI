@@ -7,6 +7,9 @@ Should he eat or should he run?
 When in doubt, Q-learn.
 
 ##Table of contents
+ * [Introduction](#introduction)
+ * [MDPs](#mdps)
+ * [Questions](#questions)
 
 ##Introduction
 
