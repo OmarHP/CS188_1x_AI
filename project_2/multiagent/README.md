@@ -8,7 +8,7 @@ Evaluation
 
 ##Table of contents
  * [Introduction](#introduction)
- * [Welcome to pacman](#welcome-to-pacman)
+ * [Multi-Agent Pacman](#multi-agent-pacman)
  * [Questions](#questions)
  * [Object glossary](#object-glossary)
 
@@ -73,3 +73,19 @@ The code for this project contains the following files, available as a [zip arch
 **Getting Help:** You are not alone! If you find yourself stuck on something, take advantage of our piazza discussion forum.
 
 **Discussion:** Please be careful not to post spoilers.
+
+##Multi-Agent Pacman
+
+First, play a game of classic Pacman:
+
+    python pacman.py
+    
+Now, run the provided ReflexAgent in **multiAgents.py**:
+
+    python pacman.py -p ReflexAgent
+
+Note that it plays quite poorly even on simple layouts:
+
+    python pacman.py -p ReflexAgent -l testClassic
+
+Inspect its code (in **multiAgents.py**) and make sure you understand what it's doing.
