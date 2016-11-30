@@ -1,1 +1,1 @@
-# CS188_1x_AI
+# BerkeleyX: CS188.1x Artificial Intelligence
