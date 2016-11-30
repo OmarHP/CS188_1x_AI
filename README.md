@@ -6,7 +6,9 @@
 * [Project 3: Reinforcement learning ](#project-3-reinforcement-learning)
 
 ##Project 1: Search in pacman
-In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently
+In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently.
+
+[Go to project](./project1)
 
 ##Project 2: Multi-agent pacman
 In this project, you will design agents for the classic version of Pacman, including ghosts. Along the way, you will implement both minimax and expectimax search and try your hand at evaluation function design.
